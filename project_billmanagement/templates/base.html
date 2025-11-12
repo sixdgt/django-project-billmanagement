@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- page specific title -->
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+    <div>
+        <a href="/">Home</a>
+    </div>
+    <!-- page or app specific contents will load here -->
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
