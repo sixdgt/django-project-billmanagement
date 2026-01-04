@@ -1,13 +1,12 @@
-<!-- we have to extend base page -->
- {% extends 'base.html' %}
+<!-- extending base page -->
+{% extends 'base.html' %}
 
- {% block title %}
- Bill Management dashboard
- {% endblock %}
+<!-- page title -->
+{% block title %} Dashboard {% endblock %}
 
- {% block content %}
- <section>
-    <h1>Welcome to Bill Management System!!</h1>
-    <hr>
- </section>
- {% endblock %}
+<!-- body content -->
+{% block content %}
+<div class="container">
+   <h1>This is our dashboard page</h1>
+</div>
+{% endblock %}

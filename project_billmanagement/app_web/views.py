@@ -6,5 +6,14 @@ def index(request):
     #return HttpResponse("Welcome to the Bill Management Application!")
     return render(request, 'dashboard.html')
 
-def login(request):
-    return render(request, 'login.html')
+def product(request):
+    return render(request, 'product.html')
+
+def customer(request):
+    return render(request, 'customer.html')
+
+def report(request):
+    return render(request, 'report.html')
+
+def customer_create(request):
+    return render(request, 'customers/customer_create.html')
